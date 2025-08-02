@@ -1,0 +1,77 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff8f5;
+    color: #1a1a1a;
+}
+header, footer {
+    background-color: #4b0b14;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+.hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.button {
+    display: inline-block;
+    background-color: #e8b44f;
+    color: #120408;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.escort-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+.escort-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+.escort-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.booking-form {
+    background: #fff3ee;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.booking-form form {
+    display: flex;
+    flex-direction: column;
+}
+.booking-form label {
+    margin: 10px 0 5px;
+}
+.booking-form input, .booking-form textarea, .booking-form select {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
+.booking-form button {
+    margin-top: 15px;
+    padding: 12px;
+    background: #a3743a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
